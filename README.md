@@ -15,8 +15,21 @@ When you are done:
 #### Syntax Errors
 - [Address Book](https://repl.it/@Admin7/addressbookpy)
 ```python
-# copy & paste your solution here
+friends = {
+  'joe': {
+    'address': '21 Higbie Lane',
+  },
+  'bill': {
+    'address': '42953 Green Street',
+  },
+  'edie': {
+    'address': '2134 Pennsylvania Avenue'
+  },
+}
+ok = list(friends.get('edie').values())[0]
+print(f'Their address is {ok}!')
 ```
+If you want to access edie's address, you have to get the dictionary values under the key 'edie', and then turn it into a list so you can index it and print the address. You cannot access the keys & values by doing dict.key.value.
 
 - [Alternative Facts](https://repl.it/@Admin7/alternativefactspy)
 ```python
