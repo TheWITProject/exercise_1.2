@@ -15,23 +15,67 @@ When you are done:
 #### Syntax Errors
 - [Address Book](https://repl.it/@Admin7/addressbookpy)
 ```python
-# copy & paste your solution here
+friends = {
+  'joe': {
+    'address': '21 Higbie Lane',
+  },
+  'bill': {
+    'address': '42953 Green Street',
+  },
+  'edie': {
+    'address': '2134 Pennsylvania Avenue'
+  },
+}
+
+print('Their address is', friends['edie']['address'],'!')
 ```
 
 - [Alternative Facts](https://repl.it/@Admin7/alternativefactspy)
 ```python
-# copy & paste your solution here
+truth = True
+def changeStatement():
+    truth = False
+changeStatement()
 ```
 
 - [My Object](https://repl.it/@Admin7/myobject)
-```python
-# copy & paste your solution here
-```
+my_object = {
+    'wow': {
+        'im great at python': True
+    },
+    'woohoo': 'i get better everyday',
+    'my_skills': {
+        'python': True,
+        'HTML': True,
+        'CSS': False
+    }
+}
 
 - [Red Light](https://repl.it/@Admin7/redlight)
-```python
-# copy & paste your solution here
-```
+STOP = 'STOP'
+PROCEED = 'PROCEED'
+CAUTION = 'CAUTION'
+
+red_light = {
+  'state': STOP,
+}
+
+def cycleStopLight (red_light):
+  if red_light['state'] == STOP:
+    red_light['state'] = PROCEED
+  elif red_light['state'] == PROCEED:
+    red_light['state'] = CAUTION
+  elif red_light['state'] == CAUTION:
+    red_light['state'] = STOP
+
+cycleStopLight(red_light)
+print(red_light)
+
+cycleStopLight(red_light)
+print(red_light)
+
+cycleStopLight(red_light)
+print(red_light)
 
 
 #### Let's Take It Further
