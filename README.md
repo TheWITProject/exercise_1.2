@@ -56,7 +56,22 @@ The curly brackets must be in the correct locations, and a bracket cannot be use
 
 - [Red Light](https://repl.it/@Admin7/redlight)
 ```python
-# copy & paste your solution here
+STOP = 'STOP'
+PROCEED = 'PROCEED'
+CAUTION = 'CAUTION'
+state = 'state'
+
+red_light = {
+  state: STOP,
+}
+
+def cycleStopLight (red_light):
+  if red_light[state] == STOP:
+    red_light[state] == PROCEED
+  elif red_light[state] == PROCEED:
+    red_light[state] == CAUTION
+  else:
+    red_light[state] == STOP
 ```
 
 
