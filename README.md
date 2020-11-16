@@ -40,8 +40,19 @@ Because variable truth is already defined outside of the function, to change it 
 
 - [My Object](https://repl.it/@Admin7/myobject)
 ```python
-# copy & paste your solution here
+my_object = {
+    'wow': {
+        'im great at python': True
+    },
+    'woohoo': { 'i get better everyday'},
+    'my_skills': {
+        'python': True,
+        'HTML': True,
+        'CSS': False
+    }
+}
 ```
+The curly brackets must be in the correct locations, and a bracket cannot be used to close a dictionary (unless you used a beginning bracket to start a list).
 
 - [Red Light](https://repl.it/@Admin7/redlight)
 ```python
