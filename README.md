@@ -125,7 +125,7 @@ def game():
 
         move = input()
         while(theBoard[move] == 'X'  or theBoard[move] == 'O'):
-          print("That place is taken. Please choose another another move.")
+          print("That place is taken. Please choose another move.")
           move = input()
         theBoard[move] = turn
         #turn = count
