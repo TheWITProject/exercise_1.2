@@ -67,13 +67,13 @@ red_light = {
 
 def cycleStopLight (red_light):
   if red_light[state] == STOP:
-    red_light[state] == PROCEED
+    red_light[state] = PROCEED
   elif red_light[state] == PROCEED:
-    red_light[state] == CAUTION
+    red_light[state] = CAUTION
   else:
-    red_light[state] == STOP
+    red_light[state] = STOP
 ```
-
+The variable state must be assigned to something before it can be used as a key, or you cannot create the dictionary. Dictionary keys also cannot be called by .key, they instead can be called by dict[key]. 
 
 #### Let's Take It Further
 <details>
