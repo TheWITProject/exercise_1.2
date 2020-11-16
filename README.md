@@ -33,8 +33,10 @@ If you want to access edie's address, you have to get the dictionary values unde
 
 - [Alternative Facts](https://repl.it/@Admin7/alternativefactspy)
 ```python
-# copy & paste your solution here
+def changeStatement():
+    return  not truth
 ```
+Because variable truth is already defined outside of the function, to change it you can return "not" truth to change the statement to False from True.
 
 - [My Object](https://repl.it/@Admin7/myobject)
 ```python
