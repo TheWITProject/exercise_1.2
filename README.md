@@ -39,6 +39,7 @@ changeStatement()
 ```
 
 - [My Object](https://repl.it/@Admin7/myobject)
+```python
 my_object = {
     'wow': {
         'im great at python': True
@@ -50,8 +51,9 @@ my_object = {
         'CSS': False
     }
 }
-
+```
 - [Red Light](https://repl.it/@Admin7/redlight)
+```python
 STOP = 'STOP'
 PROCEED = 'PROCEED'
 CAUTION = 'CAUTION'
@@ -76,7 +78,7 @@ print(red_light)
 
 cycleStopLight(red_light)
 print(red_light)
-
+```
 
 #### Let's Take It Further
 <details>
