@@ -26,7 +26,13 @@ print('Their address is ' + friends['edie']['address'] + '!')
 
 - [Alternative Facts](https://repl.it/@Admin7/alternativefactspy)
 ```python
-# copy & paste your solution here
+def changeStatement():
+    return not truth
+print(changeStatement())
+
+# The problems here were:
+  - Missing return statement
+  - Missing print function
 ```
 
 - [My Object](https://repl.it/@Admin7/myobject)
