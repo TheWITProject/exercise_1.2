@@ -15,7 +15,13 @@ When you are done:
 #### Syntax Errors
 - [Address Book](https://repl.it/@Admin7/addressbookpy)
 ```python
-# copy & paste your solution here
+print('Their address is ' + friends['edie']['address'] + '!')
+
+# The problems here were:
+  - The strings need to be separated by the calls to the dictionary with concatenation
+  - Syntax for getting the value from the friends dictionary was wrong --> need brackets instead of periods
+  - 'Edie' was mispelled
+  - Need quotes around key names
 ```
 
 - [Alternative Facts](https://repl.it/@Admin7/alternativefactspy)
