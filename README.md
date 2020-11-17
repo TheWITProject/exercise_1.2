@@ -84,6 +84,7 @@ print(red_light)
   - state was undefined so use string instead
   - replace state with 'state' for every instance
   - instead of period use brackets for retrieving value
+  - Use elif
   
 ```
 
