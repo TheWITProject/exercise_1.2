@@ -35,6 +35,11 @@ print(friends['eddie']['address'])
 - [Alternative Facts](https://repl.it/@Admin7/alternativefactspy)
 ```python
 # copy & paste your solution here
+truth = True
+def changeStatement():
+    truth = not True
+    print(bool(truth))
+changeStatement()
 ```
 
 - [My Object](https://repl.it/@Admin7/myobject)
