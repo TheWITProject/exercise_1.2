@@ -37,7 +37,20 @@ print(changeStatement())
 
 - [My Object](https://repl.it/@Admin7/myobject)
 ```python
-# copy & paste your solution here
+my_object = {
+    'wow': {
+        'im great at python': True
+    },
+    'woohoo': 'i get better everyday',
+    'my_skills': {
+        'python': True,
+        'HTML': True,
+        'CSS': False
+    }
+}
+
+# The problem here was:
+  - Extra bracket
 ```
 
 - [Red Light](https://repl.it/@Admin7/redlight)
