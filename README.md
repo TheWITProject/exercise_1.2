@@ -16,6 +16,20 @@ When you are done:
 - [Address Book](https://repl.it/@Admin7/addressbookpy)
 ```python
 # copy & paste your solution here
+friends = {
+  'joe': {
+    'address': '21 Higbie Lane',
+  },
+  'bill': {
+    'address': '42953 Green Street',
+  },
+  'eddie': {
+    'address': '2134 Pennsylvania Avenue'
+  },
+}
+
+print('Their address is') 
+print(friends['eddie']['address'])
 ```
 
 - [Alternative Facts](https://repl.it/@Admin7/alternativefactspy)
