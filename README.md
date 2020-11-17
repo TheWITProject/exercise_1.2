@@ -63,6 +63,30 @@ my_object = {
 - [Red Light](https://repl.it/@Admin7/redlight)
 ```python
 # copy & paste your solution here
+STOP = 'STOP'
+PROCEED = 'PROCEED'
+CAUTION = 'CAUTION'
+
+red_light = {
+  'state': 'STOP'
+}
+
+def cycleStopLight (red_light):
+  if red_light['state']== STOP:
+    red_light['state'] = PROCEED
+  elif red_light['state'] == PROCEED:
+    red_light['state'] = CAUTION
+  elif red_light['state'] == CAUTION:
+    red_light['state'] = STOP
+
+cycleStopLight(red_light)
+print(red_light)
+
+cycleStopLight(red_light)
+print(red_light)
+
+cycleStopLight(red_light)
+print(red_light)
 ```
 
 
